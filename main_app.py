@@ -192,5 +192,5 @@ def group5():
 
 if __name__ == '__main__':
     db.create_all()
-    manager.run() # NEW: run with this: python main_app.py runserver
+    app.run() # NEW: run with this: python main_app.py runserver
     # Also provides more tools for debugging
